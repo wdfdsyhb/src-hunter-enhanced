@@ -13,6 +13,7 @@
 | 目标是 Agent 平台(可调用工具 / 浏览网页 / 跑代码) | `12-agent-vulns.md`(10 类 Agent 漏洞) |
 | 目标可被探查模型本身(模型窃取 / 对抗样本) | `13-model-attacks.md` |
 | payload 被拦,要 jailbreak / 绕过对齐 | `14-techniques.md`(技法 #2-#6 / 边界操纵 / 认知控制) |
+| 目标是国内 SaaS 的 AI 功能(客服/助手/知识库/AI 平台) | `15-cn-saas-ai.md`(底座情报 / 提取套路 / 可报送性) |
 
 ---
 
