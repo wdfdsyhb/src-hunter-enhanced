@@ -1,6 +1,10 @@
-**中文** · [English](README.en.md)
+# src-hunter-enhanced · SRC 挖洞增强技能
 
-# src-hunter · CN Enhanced（增强版）
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE) ![ZCode Skill](https://img.shields.io/badge/AI-ZCode_Skill-purple)
+
+> 给一个目标，它按 intake → recon → enum → hunt → report 五阶段推进挖洞：19 类 playbook、305 个结构化 payload、2887 份 HackerOne 披露案例；本分支额外补充 SaaS 多租户越权、教育/政企行业打法与近年高频 CVE payload。
+>
+> English: Give it a target and it runs the five-stage hunt pipeline — 19 playbooks, 305 payloads, 2887 disclosed HackerOne cases. This fork adds SaaS tenant-bypass, edu/gov playbooks and recent high-frequency CVE payloads.
 
 > **本仓库是增强分支**：基于 [MyuriKanao/src-hunter](https://github.com/MyuriKanao/src-hunter)（MIT License）扩展。
 > 相对上游新增（2026-10）：
@@ -162,3 +166,9 @@ skill 内置触发词包括：
 MIT。
 
 数据来源均为公开资料。本项目主要做资料整理、翻译、归类，并封装成适合黑盒漏洞挖掘使用的 Claude Code skill。
+
+---
+
+## English
+
+Full English documentation: [README_EN.md](README_EN.md)
