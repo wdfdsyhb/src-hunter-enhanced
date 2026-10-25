@@ -1,0 +1,33 @@
+name: lint
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Lint SKILL.md frontmatter
+        run: |
+          python - <<'PY'
+          import re, sys, pathlib
+          files = list(pathlib.Path('.').rglob('SKILL.md'))
+          if not files:
+              print('no SKILL.md found'); sys.exit(1)
+          bad = []
+          for p in files:
+              m = re.match(r'^---\r?\n(.*?)\r?\n---', p.read_text(encoding='utf-8'), re.S)
+              if not m:
+                  bad.append(f'{p}: missing frontmatter'); continue
+              for key in ('name:', 'description:'):
+                  if key not in m.group(1):
+                      bad.append(f'{p}: missing {key}')
+          if bad:
+              print('\n'.join(bad)); sys.exit(1)
+          print(f'{len(files)} SKILL.md files OK')
+          PY
