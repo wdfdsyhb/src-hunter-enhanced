@@ -1,6 +1,6 @@
 # src-hunter-enhanced · SRC 挖洞增强技能
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE) ![ZCode Skill](https://img.shields.io/badge/AI-ZCode_Skill-purple)
+[![CI](https://github.com/wdfdsyhb/src-hunter-enhanced/actions/workflows/lint.yml/badge.svg)](https://github.com/wdfdsyhb/src-hunter-enhanced/actions/workflows/lint.yml) [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE) ![ZCode Skill](https://img.shields.io/badge/AI-ZCode_Skill-purple)
 
 > 给一个目标，它按 intake → recon → enum → hunt → report 五阶段推进挖洞：19 类 playbook、305 个结构化 payload、2887 份 HackerOne 披露案例；本分支额外补充 SaaS 多租户越权、教育/政企行业打法与近年高频 CVE payload。
 >
