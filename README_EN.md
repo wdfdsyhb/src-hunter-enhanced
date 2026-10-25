@@ -1,6 +1,6 @@
 # src-hunter-enhanced · src-hunter, Enhanced for Chinese SRCs
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE) ![ZCode Skill](https://img.shields.io/badge/AI-ZCode_Skill-purple)
+[![CI](https://github.com/wdfdsyhb/src-hunter-enhanced/actions/workflows/lint.yml/badge.svg)](https://github.com/wdfdsyhb/src-hunter-enhanced/actions/workflows/lint.yml) [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE) ![ZCode Skill](https://img.shields.io/badge/AI-ZCode_Skill-purple)
 
 > Give it a target and it runs the five-stage hunt pipeline: intake → recon → enum → hunt → report. 19 playbooks, 305 structured payloads, 2887 disclosed HackerOne cases — this fork adds SaaS tenant-bypass, edu/gov playbooks and recent high-frequency CVE payloads.
 
